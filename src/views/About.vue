@@ -2,7 +2,8 @@
   <div class="about">
     <h1>This is an about page</h1>
     <p>{{msg}}</p>
-    <button @click="onClick">Click</button>
+    <b-button @click="onClick">Click</b-button>
+
   </div>
 </template>
 

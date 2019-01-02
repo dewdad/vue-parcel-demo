@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Trix from './views/Trix.vue';
 
 Vue.use(Router);
 
@@ -13,6 +14,12 @@ export default new Router({
       name: 'home',
       component: Home,
     },
+    {
+      path: '/trix',
+      name: 'trix',
+      component: Trix,
+    },
+
     {
       path: '/about',
       name: 'about',

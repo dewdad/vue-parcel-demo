@@ -46,3 +46,10 @@ See:
 
 ## :package: Other Config
 If you want to use other configs( port, public-url, out-dir... ), see the [Parcel official documentation](https://parceljs.org/) or submit the Issue.
+
+
+
+# Resources
+
+- https://github.com/hanhdt/vue-trix
+- https://sagalbot.github.io/vue-select/docs/
