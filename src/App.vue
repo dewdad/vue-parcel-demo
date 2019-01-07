@@ -1,6 +1,6 @@
 <template>
-	<div id="nav">
-
+	<div id="app">
+		<div id="nav">
 		<b-navbar toggleable="md" variant="info" type="dark">
 
 			<b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -21,6 +21,7 @@
 		<b-container>
 			<router-view/>
 		</b-container>
+		</div>
 	</div>
 </template>
 

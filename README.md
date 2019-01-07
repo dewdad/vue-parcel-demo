@@ -111,7 +111,11 @@ When we were linking in all the Javascript files, we were really asking the brow
 
 If we did everything right, we can run the site in debug mode. Type in
 
-`parcel index.html`
+`npm run dev`
+
+
+By the way, if you go to ParcelJS's website, it will suggest `parcel index.html`. But that won't work. If you want to try something similar to that, you can `parcel ./public/index.html`
+
 
 ### Rant
 
@@ -201,7 +205,7 @@ This is a layout file. It is the last to get processed because it brings in ever
 
 All of the `b-` tags come from Bootstrap Vue. Way down on line 22 we have `<router-view />`. This is where were transition out of the layout and into the individual views. Sometime I wish code would have a big tada next to it. Why did I even want to migrate my development to NodeJS, NPM, and ParcelJS? I wanted to divided my front end code and make its content modular. This is where they come together. As I look at `<router-view />`, I notice there is no business logic or references or anything that suggests it does anything.
 
-## `src/router.ts
+## `src/router.ts`
 
 Let's go to `src/router.ts`.
 
